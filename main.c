@@ -37,7 +37,7 @@ Populacao populacao[TAM];
 Populacao filho1;
 Populacao filho2;
 void criar_cidade(){
-    FILE *file = fopen("st70.txt","r");
+    FILE *file = fopen("arquivosTeste/st70.txt","r");
     if(!(file == NULL)){
         for(int i = 0; i < numeroDeCidades; i++){
             fscanf(file,"%i %i %i\n", &cidades[i].n, &cidades[i].x, &cidades[i].y);
