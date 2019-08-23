@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1566532235 source:c:\users\wylgn\onedrive\Área de trabalho\caxeiro-viajante-lite\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+
